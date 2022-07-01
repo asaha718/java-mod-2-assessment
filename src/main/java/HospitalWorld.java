@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class HospitalWorld {
     public static void main(String[] args) {
         System.out.println("Welcome to Anug's Hospital World");
-        System.out.println("what would you like the name of your Hospital to be? : ");
+        System.out.println("What would you like the name of your Hospital to be? : ");
 
         try (Scanner scanner = new Scanner(System.in)) {
             String hospitalName = scanner.nextLine();
@@ -42,7 +42,7 @@ public class HospitalWorld {
     public static void addDocsToHospital(Scanner scanner) {
 
         System.out.println("Lets add a Doctor with a specialty to your Hospital");
-        System.out.println("What is the Doctor's name : ");
+        System.out.println("&&& What is the Doctor's name : &&&");
         String docName = scanner.nextLine();
 
         if(docName.isEmpty()) {
